@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    font-family: IBM Plex Mono,Menlo,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier,"monospace";
+}
+.top   {
+    box-shadow: 6px 2px 1px black;  
+}
+/* navigation bar*/
+.nav{
+    background-color: #f5f5f5f5;
+    overflow: hidden;
+    display: flex;
+    box-shadow: 2px 2px 1px black;
+}
+#amount{
+    position: absolute;
+    top: 14px; left: 87%;
+    padding-right: 10px ;
+    border-right: 1px solid #ccc;
+}
+#credit{
+    position: absolute;
+    top: 30px; left: 85%;
+}
+/*dropdown*/
+#down{
+    position: absolute;
+    top: 30px; left: 97%; 
+}
+#dropbtn {
+    color: rgb(19, 19, 19);
+    font-size: 16px;
+    border: none; 
+    position: absolute;
+    top: 30px; left: 90%;
+    background-color: #f5f5f5;
+    border-radius: 6px;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f5f5f5f5;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 50px; left: 89%;
+    border-radius: 6px;
+  }
+  .dropdown-content a {
+    color: black;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown:hover .dropdown-content {display: block;}
+  .dropdown:hover #dropbtn {background-color: #f1f1f1;}
+
+  #icon{
+      position: absolute;
+      right: 80%;
+  }
+
+/* side bar*/
+.side-bar{
+    width: 64px;
+    position: absolute;
+}
+
+.leftside{
+    background-color: #132732;
+    width:64px; height: 2710px;
+    position: absolute;
+}
+.icon-side{
+    padding-top:14px;
+    padding-left: 14px;
+    padding-bottom: 14px;
+}
+
+/*inside box*/
+#head{
+    color: #ffffff;
+    margin: 0px;
+    font-size: 40px;
+    position: absolute;
+    left: 140px;top: 140px;
+
+}
+.title{
+    background-color: #1c96a3;
+    height: 160px; width: 1520px;
+}
