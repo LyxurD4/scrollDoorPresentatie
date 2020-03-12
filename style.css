@@ -3,7 +3,7 @@ body{
     font-family: IBM Plex Mono,Menlo,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier,"monospace";
 }
 .top   {
-    box-shadow: 6px 2px 1px black;  
+    box-shadow: 6px 2px 1px black;
 }
 /* navigation bar*/
 .nav{
@@ -25,12 +25,12 @@ body{
 /*dropdown*/
 #down{
     position: absolute;
-    top: 30px; left: 97%; 
+    top: 30px; left: 97%;
 }
 #dropbtn {
     color: rgb(19, 19, 19);
     font-size: 16px;
-    border: none; 
+    border: none;
     position: absolute;
     top: 30px; left: 90%;
     background-color: #f5f5f5;
@@ -92,5 +92,10 @@ body{
 }
 .title{
     background-color: #1c96a3;
-    height: 160px; width: 1520px;
+    height: 160px; width: auto;
+}
+/*form*/
+.form{
+    display: flex;
+    justify-content: center;
 }
