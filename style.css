@@ -3,7 +3,7 @@ body{
     font-family: IBM Plex Mono,Menlo,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier,"monospace";
 }
 .top   {
-    box-shadow: 6px 2px 1px black;  
+    box-shadow: 6px 2px 1px black;
 }
 /* navigation bar*/
 .nav{
@@ -26,12 +26,12 @@ body{
 #down{
     position: absolute;
     padding-left: 6px;
-    top: 30px; left: 97%; 
+    top: 30px; left: 97%;
 }
 #dropbtn {
     color: rgb(19, 19, 19);
     font-size: 16px;
-    border: none; 
+    border: none;
     position: absolute;
     top: 30px; left: 90%;
     background-color: #f5f5f5;
@@ -73,7 +73,7 @@ body{
 
 .leftside{
     background-color: #132732;
-    width:64px; height: 680px;
+    width:64px; height: 900px;
 }
 .icon-side{
     padding-top:14px;
@@ -97,45 +97,49 @@ body{
 
 /*question form*/
 .form{
+    flex-direction: column;
     display: flex;
     margin-left: 64px;
     border: 2px solid rgb(167, 165, 165);
     border-radius: 6px;
-    height: 516px;
+    height: auto;
     width: fit-content;
     color: rgb(94, 91, 91);
     font-family: IBM Plex Mono,Menlo,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier,"monospace";
 }
-.question{
+.welcomeMessage{
     display: flex;
-    align-self: flex-end;
-    height: fit-content;
-    width: 650px;
-    border-radius: 3px;
-    border-bottom: rgb(167, 165, 165) 2px solid;
-    font-family: IBM Plex Mono,Menlo,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier,"monospace";
-    color: rgb(94, 91, 91);
-}
-#sumbit{
-    display: flex;
-    font-family: IBM Plex Mono,Menlo,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier,"monospace";
-    border-bottom: rgb(167, 165, 165) 2px solid;
-    border-radius: 2px;
-    align-self: flex-end;
-    height: fit-content;
-    width: 50px;
-    color: rgb(94, 91, 91);
-}
-.tryOut{
-    display: flex;
-    align-self: flex-start;
     width:300px;
-    flex-wrap: wrap;
     height: auto;
-    margin:  6px;
+    margin-top:  108px;
+    margin-bottom: 108px;
+    margin-right: 108px;
     padding: 5px;
     border: 1px rgb(167, 165, 165) solid;
     border-radius: 3px;
     justify-content: space-around;
-    
+}
+.question{
+  display: flex;
+  width:300px;
+  height: auto;
+  margin-top:  108px;
+  margin-bottom: 108px;
+  margin-left: 108px;
+  padding: 5px;
+  border: 1px rgb(167, 165, 165) solid;
+  border-radius: 3px;
+  justify-content: space-around;
+}
+.anwser{
+  display: flex;
+  width:300px;
+  height: auto;
+  margin-top:  108px;
+  margin-bottom: 108px;
+  margin-right: 108px;
+  padding: 5px;
+  border: 1px rgb(167, 165, 165) solid;
+  border-radius: 3px;
+  justify-content: space-around;
 }
