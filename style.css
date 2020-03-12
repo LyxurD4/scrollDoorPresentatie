@@ -97,26 +97,45 @@ body{
 
 /*question form*/
 .form{
-    margin-left: 64px;
     display: flex;
-    border: 2px solid black;
+    margin-left: 64px;
+    border: 2px solid rgb(167, 165, 165);
     border-radius: 6px;
-    height: auto;
     height: 516px;
-    justify-content: flex-end;
-    width: 700px;
+    width: fit-content;
+    color: rgb(94, 91, 91);
+    font-family: IBM Plex Mono,Menlo,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier,"monospace";
 }
 .question{
-    margin-top: auto;
-    height: 20px;
-    width: 500px;
+    display: flex;
+    align-self: flex-end;
+    height: fit-content;
+    width: 650px;
     border-radius: 3px;
-    border-bottom: black 2px solid;
+    border-bottom: rgb(167, 165, 165) 2px solid;
+    font-family: IBM Plex Mono,Menlo,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier,"monospace";
+    color: rgb(94, 91, 91);
 }
 #sumbit{
-    border-bottom: black 2px solid;
+    display: flex;
+    font-family: IBM Plex Mono,Menlo,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier,"monospace";
+    border-bottom: rgb(167, 165, 165) 2px solid;
     border-radius: 2px;
-    margin-top: auto;
-    height: 26px;
+    align-self: flex-end;
+    height: fit-content;
     width: 50px;
+    color: rgb(94, 91, 91);
+}
+.tryOut{
+    display: flex;
+    align-self: flex-start;
+    width:300px;
+    flex-wrap: wrap;
+    height: auto;
+    margin:  6px;
+    padding: 5px;
+    border: 1px rgb(167, 165, 165) solid;
+    border-radius: 3px;
+    justify-content: space-around;
+    
 }
